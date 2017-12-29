@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7b13d4-d15a-43da-9b29-f3342244442f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/lib/pydmd/__init__.py" afterPath="$PROJECT_DIR$/build/lib/pydmd/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/build/lib/pydmd/dmd.py" afterPath="$PROJECT_DIR$/build/lib/pydmd/dmd.py" />
-      <change beforePath="$PROJECT_DIR$/build/lib/pydmd/dmdbase.py" afterPath="$PROJECT_DIR$/build/lib/pydmd/dmdbase.py" />
-      <change beforePath="$PROJECT_DIR$/build/lib/pydmd/fbdmd.py" afterPath="$PROJECT_DIR$/build/lib/pydmd/fbdmd.py" />
-      <change beforePath="$PROJECT_DIR$/build/lib/pydmd/mrdmd.py" afterPath="$PROJECT_DIR$/build/lib/pydmd/mrdmd.py" />
-      <change beforePath="$PROJECT_DIR$/installed_files.txt" afterPath="$PROJECT_DIR$/installed_files.txt" />
-      <change beforePath="$PROJECT_DIR$/pydmd.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/pydmd.egg-info/PKG-INFO" />
-      <change beforePath="$PROJECT_DIR$/pydmd.egg-info/not-zip-safe" afterPath="$PROJECT_DIR$/pydmd.egg-info/not-zip-safe" />
-    </list>
+    <list default="true" id="be7b13d4-d15a-43da-9b29-f3342244442f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -499,11 +490,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.PyDMD" />
-      <item index="1" class="java.lang.String" itemvalue="Python.WRDmd" />
-      <item index="2" class="java.lang.String" itemvalue="Python.eig" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DMD" />
-      <item index="5" class="java.lang.String" itemvalue="Python.ti_curve" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DMD" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ti_curve" />
+      <item index="3" class="java.lang.String" itemvalue="Python.WRDmd" />
+      <item index="4" class="java.lang.String" itemvalue="Python.eig" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -569,6 +560,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1634" y="1046" width="1634" height="1054" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1526382" sideWeight="0.4934334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="325" y="216" width="781" height="469" />
