@@ -8,7 +8,7 @@ from past.utils import old_div
 import SimpleITK as sitk
 import matplotlib.pyplot as plt
 
-root_location = 'data_set/lung'# image sequences directory
+root_location = '../data_set/lung'# image sequences directory
 reference_image = '/home/cai/Desktop/'# the loc that used to save reference images
 
 dcm = DcmRead(dir_files=root_location, key_word="IM")
@@ -27,3 +27,6 @@ single = np.reshape(re_images[:,0],[256,256])
 single_mode = np.reshape(modes,[256,256])
 reference = sitk.GetImageFromArray(np.abs(single_mode))
 sitk.WriteImage(reference, reference_image+'slow_mode.mhd')
+single_image = np.reshape(Data[:,0],[256,256])
+image = sitk.GetImageFromArray(np.abs(single_image))
+sitk.WriteImage(image,reference_image+'moving.mhd')
