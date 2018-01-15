@@ -8,7 +8,8 @@ from past.utils import old_div
 import SimpleITK as sitk
 import matplotlib.pyplot as plt
 import sys
-from DCE_tools import simulate_motion as sm
+# sys.path.append('/home/cai/Documents/PyDMD/DCE_tools/')
+from PyDMD import create_sample_data
 # root_location = '/home/cai/Documents/data_set/DICOMfiles/p01104954/test'# image sequences directory
 # reference_image = '/home/cai/Documents/result/zi_gong/'# the loc that used to save reference images
 #
@@ -35,7 +36,7 @@ from DCE_tools import simulate_motion as sm
 # reference = sitk.GetImageFromArray(np.abs(single_mode))
 # sitk.WriteImage(reference, reference_image+'slow_mode3.mha')
 
-Data = sm.create_sample_data()
+Data = create_sample_data()
 dmd = DMD(svd_rank=-1)
 dmd_info = dmd.fit(X=Data.T)
 index = np.argsort(np.abs(old_div(np.log(dmd_info.eigs), (2. * np.pi))))

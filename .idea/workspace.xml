@@ -5,8 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/eig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/pca.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/simulate_motion.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/test1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DCE_tools/ti_curve.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/DMD.py" afterPath="$PROJECT_DIR$/DMD.py" />
-      <change beforePath="$PROJECT_DIR$/WRDmd.py" afterPath="$PROJECT_DIR$/WRDmd.py" />
+      <change beforePath="$PROJECT_DIR$/PyDMD/__init__.py" afterPath="$PROJECT_DIR$/PyDMD/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +51,21 @@
       <file leaf-file-name="DMD.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DMD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="489">
+              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="e#106#134#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simulate_motion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDMD/simulate_motion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,7 +117,11 @@
         <option value="$PROJECT_DIR$/DCE_tools/ti_curve.py" />
         <option value="$PROJECT_DIR$/WRDmd.py" />
         <option value="$PROJECT_DIR$/exp.py" />
+        <option value="$PROJECT_DIR$/DCE_tools/_init_.py" />
+        <option value="$PROJECT_DIR$/DCE_tools/__init__.py.py" />
         <option value="$PROJECT_DIR$/DMD.py" />
+        <option value="$PROJECT_DIR$/PyDMD/__init__.py" />
+        <option value="$PROJECT_DIR$/PyDMD/simulate_motion.py" />
       </list>
     </option>
   </component>
@@ -173,6 +194,12 @@
             <path>
               <item name="PyDMD" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyDMD" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDMD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyDMD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyDMD" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDMD" type="462c0819:PsiDirectoryNode" />
               <item name="DCE_tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -183,11 +210,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PyDMD" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
     </key>
@@ -518,13 +548,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-4" width="1634" height="1054" extended-state="6" />
+    <frame x="187" y="324" width="1636" height="1065" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15437074" sideWeight="0.4934334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23929748" sideWeight="0.40281174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.4940429" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20965971" sideWeight="0.48227385" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20965971" sideWeight="0.48227385" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.402854" sideWeight="0.37041566" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49722" order="6" side_tool="false" content_ui="tabs" />
@@ -576,6 +606,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/DCE_tools" />
+    </ignored-roots>
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
@@ -593,9 +626,8 @@
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DMD.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="237" />
+          <url>file://$PROJECT_DIR$/PyDMD/simulate_motion.py</url>
+          <option name="timeStamp" value="241" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -608,7 +640,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="238" />
+      <option name="time" value="242" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -617,15 +649,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/importer.py" />
-    <entry file="file://$PROJECT_DIR$/tests/test_fbdmd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/failure.py" />
     <entry file="file://$PROJECT_DIR$/tests/test_dmd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -728,13 +751,6 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dicom/__init__.py" />
     <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/pydmd-0.0.2-py2.7.egg/pydmd/dmd.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/PyDMD/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DCE_tools/TransformParameters.0.txt" />
     <entry file="file://$PROJECT_DIR$/DCE_tools/TransformParameters.1.txt" />
     <entry file="file://$PROJECT_DIR$/DCE_tools/elastix.log" />
@@ -782,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,10 +822,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DCE_tools/__init__.py.py" />
+    <entry file="file://$PROJECT_DIR$/DCE_tools/simulate_motion.py" />
+    <entry file="file://$PROJECT_DIR$/PyDMD/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="e#85#113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDMD/simulate_motion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DMD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="489">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="e#106#134#0" expanded="true" />
           </folding>
