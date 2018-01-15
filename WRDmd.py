@@ -14,7 +14,7 @@ import SimpleITK as sitk
 import matplotlib.pyplot as plt
 
 # the root location that used for saving results
-root_location = 'result/lung/'
+root_location = '../result/lung/'
 # the loc that used to save origin images
 origin_loc = 'original_images'
 # the loc that used to save step one results
@@ -31,7 +31,7 @@ for first_n_modes in range(1,15):
     print('...'+str(first_n_modes)+'...')
     time2 = time.time()
     print(time2 - time1)
-    dcm = DcmRead(dir_files="data_set/lung", key_word="IM")
+    dcm = DcmRead(dir_files="../data_set/lung", key_word="IM")
     Data = dcm.read_images()
     """
     step one windowed DMD, sampling rate: 3
